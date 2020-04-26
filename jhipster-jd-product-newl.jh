@@ -1,0 +1,14 @@
+
+entity ProductLaptop {
+	name String, 
+    image String,
+    type String,
+    brand Brand,
+    description String,
+    price Long,
+    quantity Long,
+}
+
+enum Brand {
+    ASUS, DELL, MACBOOK
+}
